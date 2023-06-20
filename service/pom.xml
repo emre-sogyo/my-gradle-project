@@ -8,7 +8,7 @@
     </parent>
 
     <groupId>nl.sogyo.my-gradle-project</groupId>
-    <artifactId>domain</artifactId>
+    <artifactId>service</artifactId>
 
     <build>
         <plugins>
@@ -23,8 +23,14 @@
 
     <dependencies>
         <dependency>
+            <groupId>nl.sogyo.my-gradle-project</groupId>
+            <artifactId>domain</artifactId>
+            <version>${revision}</version>
+        </dependency>
+        <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
         </dependency>
     </dependencies>
+
 </project>
