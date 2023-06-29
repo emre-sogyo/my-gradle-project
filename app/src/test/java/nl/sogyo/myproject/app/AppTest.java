@@ -1,4 +1,4 @@
 package nl.sogyo.myproject.app;
 
-public class AppTest {
+public class AppTest  {
 }

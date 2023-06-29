@@ -1,5 +1,5 @@
 plugins {
-    id("java-conventions")
+    id("java-library")
 }
 
 java {
@@ -8,7 +8,7 @@ java {
     }
 }
 
-group = "nl.sogyo.myproject"
+group = "nl.sogyo.myproject.service"
 
 repositories {
     mavenCentral()

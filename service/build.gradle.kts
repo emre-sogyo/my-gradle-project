@@ -1,8 +1,8 @@
 plugins {
-    id("java")
+    id("java-conventions")
 }
 
-group = "org.example"
+group = "nl.sogyo.myproject"
 version = "unspecified"
 
 repositories {
@@ -10,7 +10,7 @@ repositories {
 }
 
 dependencies {
-    testImplementation(platform("org.junit:junit-bom:5.9.1"))
+    testImplementation(platform("org.junit:junit-bom:5.7.0"))
     testImplementation("org.junit.jupiter:junit-jupiter")
     testImplementation(project(mapOf("path" to ":domain")))
 }
